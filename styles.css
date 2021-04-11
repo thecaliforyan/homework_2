@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+}
+
+#calculator-title
+{
+  font-size: 30px;
+
+}
+
+#heading-text
+{
+  font-size: 20px;
+}
+
+#word
+{
+  color: white;
+  background-color: forestgreen;
+  border-radius: 7px;
+  padding-bottom: 1%;
+  padding-top: 0.3%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+
+#calculator { 
+  background-color:skyblue;
+  border: 1em solid black;
+  text-align: center;
+  height: 40%;
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 20%;
+  margin-right: 20%;
+  padding: 10% 10% 10% 10%;
+ }
+
+
+
+#arithmetic_button {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    font-size: 2em;
+    margin-top: 20px;
+  }

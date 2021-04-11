@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./styles.css" />
+
+</head>
+
+
+<body>
+    
+    <div id = "calculator">  
+
+        <span id = "calculator-title"> Welcome to the Online Calculator </span>
+        <br/><br/>
+        
+
+        <span id="heading-text">  
+        Enter <strong>two numbers</strong>. <br/>
+        Then, click one of the four <span id = "word">green</span> operation buttons to calculate.</span>
+        <br /> <br />
+
+              <span> Number One: </span>
+              <input type = "firstvalue" id = "number1" placeholder = "Enter First Number" />
+              <br /> <br/>
+               
+              <span> Number Two: </span>
+              <input type = "secondvalue" id = "number2" placeholder = "Enter Second Number" />
+     
+              <br />
+              
+              <button id = "arithmetic_button" onclick = "addFunction()" > + </button>
+              <button id = "arithmetic_button" onclick = "subFunction()" > - </button>
+              <button id = "arithmetic_button" onclick = "multFunction()" > * </button>
+              <button id = "arithmetic_button" onclick = "divFunction()" > / </button>
+
+              <br /> <br />
+              <span>Your Answer:</span>
+              <input type = "answervalue" id = "answer" value = "Answer Displays Here" />
+
+
+    </div>
+
+    <script src = "./learn.js"> </script>
+    
+</body>
+
+
+</html>
